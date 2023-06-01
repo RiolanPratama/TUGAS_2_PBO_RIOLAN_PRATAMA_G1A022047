@@ -51,14 +51,14 @@ jurusan_ts = Jurusan("Teknik Sipil")
 universitas_xyz.tambah_jurusan(jurusan_ts)
 
 # Membuat beberapa objek Mahasiswa dan memasukkannya ke dalam Jurusan di Universitas XYZ
-mahasiswa_kalian = Mahasiswa("RIOLAN PRATAMA", "G1A022047", jurusan_ti)
-jurusan_ti.tambah_mahasiswa(mahasiswa_kalian)
+daftar_mahasiswa = Mahasiswa("RIOLAN PRATAMA", "G1A022047", jurusan_ti)
+jurusan_ti.tambah_mahasiswa(daftar_mahasiswa)
 
-mahasiswa_kalian = Mahasiswa("RAZORS", "123456789", jurusan_si)
-jurusan_si.tambah_mahasiswa(mahasiswa_kalian)
+daftar_mahasiswa = Mahasiswa("RAZORS", "123456789", jurusan_si)
+jurusan_si.tambah_mahasiswa(daftar_mahasiswa)
 
-mahasiswa_kalian = Mahasiswa("THIMO", "987654321", jurusan_ts)
-jurusan_ts.tambah_mahasiswa(mahasiswa_kalian)
+daftar_mahasiswa = Mahasiswa("THIMO", "987654321", jurusan_ts)
+jurusan_ts.tambah_mahasiswa(daftar_mahasiswa)
 
 # Menampilkan daftar jurusan yang ada di Universitas XYZ
 universitas_xyz.tampilkan_daftar_jurusan()
